@@ -12,6 +12,6 @@ jobs:
       - run: npm cli
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          repoToken: '${{ secrets.FIREBASE_ACCESS_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_ACCESS_TOKEN }}'
           projectId: elated-bison-386001
