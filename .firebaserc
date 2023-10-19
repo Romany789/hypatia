@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "nekomy-6c2e7"
-  }
+    "default": "nekomy-6c2e7",
+    "hosting": "elated-bison-386001"
+  },
+  "targets": {},
+  "etags": {}
 }
