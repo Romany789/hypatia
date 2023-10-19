@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nekomy/nekomy-platform"
+    "url": "git+https://github.com/nekomy/nekomy-platform.git"
   },
   "author": "Nekomy <hello@nekomy.com> (http://nekomy.com)",
   "license": "GPL-2.0",
@@ -86,5 +86,10 @@
     "webpack": "^2.3.1",
     "webpack-dev-server": "^2.4.1",
     "webpack-version-file-plugin": "^0.2.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/nekomy/nekomy-platform/issues"
+  },
+  "homepage": "https://github.com/nekomy/nekomy-platform#readme",
+  "main": ".eslintrc.js"
 }
