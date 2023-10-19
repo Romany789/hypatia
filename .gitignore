@@ -6,3 +6,4 @@
 .env
 bundle.js
 npm-debug.log
+firebase-debug.log
