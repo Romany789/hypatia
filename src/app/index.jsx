@@ -21,6 +21,27 @@ import Module from './themes/nekomy/pages/module/module';
 import Activity from './themes/nekomy/pages/activity/activity';
 import NotFound from './themes/nekomy/pages/notFound/notFound';
 import Admin from './core/admin/admin';
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+
+
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAS4SrTstuRIEa0gS7A_3ckiBdcXxX1QyM",
+  authDomain: "elated-bison-386001.firebaseapp.com",
+  projectId: "elated-bison-386001",
+  storageBucket: "elated-bison-386001.appspot.com",
+  messagingSenderId: "774419351845",
+  appId: "1:774419351845:web:f1e0afc115b3c0bca3f2cc",
+  measurementId: "G-9LC6RL2G3S"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
 
 // Google Analytics initializacion
 ReactGA.initialize('UA-00000000-1', {
