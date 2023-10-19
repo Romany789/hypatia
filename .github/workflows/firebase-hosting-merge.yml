@@ -31,4 +31,4 @@ jobs:
           npx firebase deploy --only hosting
 
         env:
-          FIREBASE_TOKEN: ${{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}} # Make sure to set up this secret in your repository settings
+          FIREBASE_TOKEN: ${{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}} # Make sure to set up this secret in your repository settings
