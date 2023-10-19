@@ -31,4 +31,4 @@ jobs:
           npx firebase deploy --only hosting
 
         env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_ACCESS_TOKEN }} # Make sure to set up this secret in your repository settings
+            FIREBASE_TOKEN: ${{ secrets.FIREBASE_ACCESS_TOKEN }} # Make sure to set up this secret in your repository settings
